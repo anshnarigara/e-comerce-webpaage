@@ -1,0 +1,249 @@
+body{
+    background-color:black;
+    color: black;
+}
+
+
+
+select{
+    background-color: black;
+    color:white;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.main{
+    padding: 10px;
+    background-color:  paleturquoise;
+    border-radius: 15px;
+    margin-top: 50px;
+    height: 68%;
+    width: 98%;
+    overflow-y: auto;
+    border: 2PX solid black;
+    outline: 3PX solid WHITE;
+    
+}
+
+.main::-webkit-scrollbar{
+    display: none;
+}
+a{
+    color: white;
+    text-decoration-line: none;
+    margin: 50px;
+    
+}
+
+.a1{
+    color: black;
+    margin: 10px;
+    font-size: 30px;
+}
+
+
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.product{
+    background-color: navy;
+    color: white;
+    border: 3px solid black;
+    border-radius: 10px;   
+    margin-top: 10px; 
+}
+
+.main center table tr td .product{
+    background-color: navy;
+    color: white;
+    border: 3px solid black;
+    border-radius: 10px;    
+
+}
+
+
+#SEARCH{
+    background-color: WHITE;
+    color: black;
+   border: 2px solid orange;
+    border-radius: 8PX;
+    height: 30PX;
+    width: 525PX;
+    margin-right: 30PX;
+
+}
+
+ul .menu{
+    float: right;
+    color: white;
+    border: 2px solid white;
+    margin-right: 20px;
+    list-style-type: none;
+    width: 100px;
+    height: 20px;
+    font-size: 11px;
+    text-align: center;
+    transition: all .5s ;
+}
+
+ .menu{
+    background-color: black;
+    float: right;
+    color: white;
+    border: 2px solid white;
+    margin-right: 20px;
+    list-style-type: none;
+    width: 100px;
+    height: 20px;
+    font-size: 11px;
+    text-align: center;
+    transition: all .5s ;
+}
+
+#cat{
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: black;
+    z-index: index 10;;
+    transition: all 1s;
+}
+
+ul #ctr:hover .subcat{
+    display: block;
+    position:absolute;
+    z-index: 1;
+}
+
+ul li div{
+    margin-left: 20px;
+    display: none;
+    width: 100px;
+    height: auto;
+    transition: all 2s;
+}
+
+
+
+
+.mn{
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+    margin: 0px auto;
+    height: 10px;
+    display: block;
+    transition: all .5s;
+}
+
+
+
+.menu:hover{
+    background-color: paleturquoise;
+    color: black;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+
+
+
+ 
+}
+
+.mn:hover{
+    color: black;
+}
+
+
+input{
+    background-color: black;
+    border: 3pxm solid white;
+    color: white;
+    border-radius: 5px;
+
+}
+.BTN{
+    background-color: rgb(255, 183, 0);
+    border: 2px solod black;
+    color: black;
+    font-family: ARIAL;
+    border-radius: 15px;
+    transition: all .4s;
+    
+}
+
+button{
+    transition: all .2S;
+}
+
+button:hover{
+    background-color: black;
+    color: gold;
+    border:3PX SOLID gold;
+}
+
+.top{
+    border: 3px solid white;
+    width: 10%;
+    height: 30px;
+}
+
+.name{
+    font-family: Arial;
+
+}
+.price{
+    font-family: Arial;
+}
+
+
+
+.CATEGORY{
+    background-color: black;
+    width: 150PX;
+    color: white;
+    border: 3PX solid blue;
+}
+
+
+
+
+i{
+    color: white;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.see{
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    padding: 10PX;
+}
+#pseet{
+    align-items: center;
+}
+
+#LIST{
+    margin-top: 10PX;
+}
+
+
+
+td center a{
+    margin: 0%;
+}
+
+.back{
+    color: white;
+font-size: 35px;
+
+}
+
+.td{
+    margin: 39px ;
+    width: 16%;
+}
